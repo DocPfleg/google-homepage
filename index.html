@@ -6,14 +6,26 @@
         GOOGLE
     </title>
     </head>
+        <!-- I forgot how to create divs and manage their properties and placement via CSS.
+        Probably going to run through the whole FreeCodeCamp program again, tbh.-->
     <body>
-        <img src= "https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif" alt=>
-        <br>
-        <br>
-        <form type="submit" name="search">
-            <button>
-
-            </button>
+        <div><img src= "https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif" alt=>
+        </div>
+            <!-- div or br? div is more for CSS-->
+        <form action="">
+            <div>
+                <label for="search">
+                    <input type="text" placeholder="Enter your search terms here..." id="search" size="50" required>
+            </div>
+            <!-- Need to use CSS to create a little bit of a buffer between the button and the text field-->
+            <div>
+                    <button type="submit" id="search"> Search
+                 <!-- look up how to create button with the text "Search"
+                    and tie it to a text form submission field-->
+                 <!-- I forgot how to tie labels and ids to forms and their elements-->
+                        </button>
+            </div>
+                </label>
         </form>
     </body>
 </html>
