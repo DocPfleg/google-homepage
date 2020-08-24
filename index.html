@@ -14,18 +14,18 @@
             <!-- div or br? div is more for CSS-->
         <form action="">
             <div>
-                <label for="search">
-                    <input type="text" placeholder="Enter your search terms here..." id="search" size="50" required>
+                <form id="search" action="">
+                    <input type="search" placeholder="Enter your search terms here..." id="search" size="50" required>
             </div>
             <!-- Need to use CSS to create a little bit of a buffer between the button and the text field-->
             <div>
-                    <button type="submit" id="search"> Search
+                <button type="submit" id="search"> Search
                  <!-- look up how to create button with the text "Search"
                     and tie it to a text form submission field-->
                  <!-- I forgot how to tie labels and ids to forms and their elements-->
-                        </button>
+                </button>
+                </form>
             </div>
-                </label>
         </form>
     </body>
 </html>
