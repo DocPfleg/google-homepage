@@ -4,4 +4,19 @@ body {
     grid-template: 5 / 5    
 }
 
+div {
+
+}
+
+.search-bar {
+    margin: auto;
+}
+
+.google-image {
+    margin: auto;
+}
+
+button {
+    margin: 10px;
+}
 /* How do I move divs around? */
