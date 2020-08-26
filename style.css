@@ -1,22 +1,21 @@
 body {
-    background-color: white;
-    display: grid;
-    grid-template: 5 / 5    
-}
-
-div {
-
+    background-color: white; 
 }
 
 .search-bar {
-    margin: auto;
+    display: flex;
 }
 
 .google-image {
     margin: auto;
+    transform: scale(.75)
 }
 
 button {
     margin: 10px;
+}
+
+button:hover {
+    border: 1px
 }
 /* How do I move divs around? */
