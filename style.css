@@ -1,21 +1,28 @@
+/* Just gonna leave this stuff commented out until I feel like I know what to do.
+
 body {
+    display: flex;
     background-color: white; 
+    flex-wrap: wrap;
 }
 
 .search-bar {
-    display: flex;
+    align-content: center;
+    align-items: center;
 }
 
 .google-image {
-    margin: auto;
-    transform: scale(.75)
+    transform: scale(.75);
 }
 
 button {
-    margin: 10px;
+    margin: 0px;
 }
 
 button:hover {
-    border: 1px
+    border: 10px, black;
 }
+
+*/
+
 /* How do I move divs around? */
